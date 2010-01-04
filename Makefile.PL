@@ -18,4 +18,5 @@ requires 'B::Hooks::OP::PPAddr';
 my $pkg = ExtUtils::Depends->new('Methods::CheckNames', 'B::Hooks::OP::Check', 'B::Hooks::OP::PPAddr');
 makemaker_args($pkg->get_makefile_vars);
 
+repository 'http://github.com/rafl/methods-checknames';
 WriteAll;
